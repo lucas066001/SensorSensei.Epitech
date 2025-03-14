@@ -27,3 +27,10 @@ List of the steps we made to setup gateway and esp modules :
     - Configure region code on gateway module. It as been done via [Web UI](https://client.meshtastic.org/) and serial connection. (Chrome or Microsoft edge browers only)  
     Chose region in **Config > LoRa > Region**. The region code we used is EU_433.
     - **WARN**: To be able to upload code on heltec boards you'll need to add this url ```https://resource.heltec.cn/download/package_heltec_esp32_index.json``` to your ```Arduino IDE > File > Preferences > Additional boards manager url``` 
+
+* Give licence to chip so you can use Heltec library on Arduino :
+    - Follow this [link](https://resource.heltec.cn/search).
+    - Enter the chip id given in Arduino Serial Monitor, copy the licence column of the tab.
+    - Now you have to format the licence :  
+    If the license is “0x12345678, 0x12345678, 0x12345678, 0x12345678”, the activation command is “AT+CDKEY=12345678123456781234567812345678”.
+    - In Arduino Serial Monitor, you have an input to send message to the chip. Send the formatted string you have built in the previous step.
