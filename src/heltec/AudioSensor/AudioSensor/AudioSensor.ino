@@ -30,9 +30,9 @@ void loop() {
         mean += (sBuffer[i]);
       }
       mean /= samples_read;
-      Serial.print(0);
+      Serial.print(-100);
       Serial.print(" ");
-      Serial.print(200);
+      Serial.print(100);
       Serial.print(" ");
       Serial.println(mean);
     }
