@@ -1,18 +1,15 @@
-#include <Arduino.h>
-
-// put function declarations here:
-int myFunction(int, int);
+#include "services/dust_sensor_service/dust_sensor_service.h"
+#include "services/audio_sensor_service/audio_sensor_service.h"
+#include "services/lora_service/lora_service.h"
 
 void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+  // audio_setup();
+  dust_sensor_setup();
+  // lora_sender_setup();
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-}
-
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+  // audio_loop();
+  dust_sensor_loop();
+  // lora_sender_loop();
 }
