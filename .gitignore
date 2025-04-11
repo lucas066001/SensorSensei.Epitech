@@ -1,0 +1,22 @@
+# Espressif SDK / Framework
+/esp-idf/
+/idfespressif/
+
+# Build artifacts
+/build/
+
+# CMake / VSCode / OS-specific
+CMakeCache.txt
+cmake-build-*
+*.log
+*.elf
+*.bin
+*.map
+
+# VSCode settings (optional)
+/.vscode/
+
+# Python / IDF virtualenv
+.env/
+.venv/
+__pycache__/
