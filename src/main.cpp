@@ -1,12 +1,10 @@
 #include <Arduino.h>
-#include "lora_receiver.h"
+#include "communication_service.h"
 
-void setup(){
-  setup_lora();
-  //setup_gps();
+void setup() {
+    setup_communication();
 }
 
-void loop(){
-  loop_lora();
-  //loop_gps();
+void loop() {
+    loop_communication();
 }
