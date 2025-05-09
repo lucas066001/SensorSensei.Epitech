@@ -12,11 +12,14 @@ else
 PY ?= python3
 endif
 
+# Ensure LRELEASE is set, use default if not provided
+LRELEASE ?= /usr/bin/lrelease
+
 %.py: %.ui
 	pyuic5 $< -o $@
 
 %.qm: %.ts
-	lrelease $<
+	$(LRELEASE) $<
 
 all: $(UI_COMPILED) $(TS_COMPILED)
 
@@ -34,7 +37,7 @@ i18n-update: $(UI_COMPILED)
 	done
 
 deps:
-	$(PY) -m pip install --user -U -r requirements.txt
+	$(PY) -m pip install  -U -r requirements.txt
 
 # Here go platform-specific buildsteps
 UNAME_S := $(shell uname -s)

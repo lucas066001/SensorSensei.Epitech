@@ -1,0 +1,6 @@
+2025/04/27 11:37:16 Starting cygwin install, version 2.933
+2025/04/27 11:37:16 mbox : Cygwin is not supported on 32-bit Windows
+2025/04/27 11:37:16 AddAccessAllowedAceEx(, owner) failed: 1337
+2025/04/27 11:37:16 AddAccessAllowedAceEx(, group) failed: 1337
+2025/04/27 11:37:16 AddAccessAllowedAceEx(, owner) failed: 1337
+2025/04/27 11:37:16 AddAccessAllowedAceEx(, group) failed: 1337

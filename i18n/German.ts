@@ -1,184 +1,185 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="2.0" language="de_DE" sourcelanguage="en">
+<!DOCTYPE TS>
+<TS version="2.1" language="de_DE" sourcelanguage="en">
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../airrohr-flasher.py" line="62"/>
+        <location filename="../airrohr-flasher.py" line="74"/>
         <source>Loading firmware list...</source>
         <translation>Lade Firmware Liste ...</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="277"/>
+        <location filename="../airrohr-flasher.py" line="298"/>
         <source>No boards found</source>
         <translation>Kein Board gefunden</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="277"/>
+        <location filename="../airrohr-flasher.py" line="298"/>
         <source>Have you installed &lt;a href=&quot;{drivers_url}&quot;&gt;the drivers&lt;/a&gt;?</source>
-        <translation>Sind die &lt;a href=&quot;{drivers_url}&quot;&gt;Treiber&lt;/a&gt; installiert?</translation>
+        <translation>Sind die &amp;lt;a href=&amp;quot;{drivers_url}&amp;quot;&amp;gt;Treiber&amp;lt;/a&amp;gt; installiert?</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="286"/>
+        <location filename="../airrohr-flasher.py" line="307"/>
         <source>Others...</source>
         <translation>Andere ...</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="576"/>
+        <location filename="../airrohr-flasher.py" line="602"/>
         <source>No device selected.</source>
         <translation>Kein Gerät ausgewählt.</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="497"/>
+        <location filename="../airrohr-flasher.py" line="524"/>
         <source>No version selected.</source>
         <translation>Keine Version ausgewählt.</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="517"/>
+        <location filename="../airrohr-flasher.py" line="543"/>
         <source>Invalid version / file does not exist</source>
         <translation>Ungültige Version / Datei existiert nicht</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="522"/>
+        <location filename="../airrohr-flasher.py" line="548"/>
         <source>Work in progess...</source>
         <translation>In Arbeit...</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="551"/>
+        <location filename="../airrohr-flasher.py" line="577"/>
         <source>Downloading...</source>
         <translation>Lade herunter ...</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="592"/>
+        <location filename="../airrohr-flasher.py" line="618"/>
         <source>Connecting...</source>
         <translation>Verbinde...</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="597"/>
+        <location filename="../airrohr-flasher.py" line="623"/>
         <source>Connected. Chip type: {chip_type}</source>
         <translation>Verbunden. Chip Typ: {chip_type}</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="568"/>
+        <location filename="../airrohr-flasher.py" line="594"/>
         <source>Erasing complete!</source>
         <translation>Löschen beendet!</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="580"/>
+        <location filename="../airrohr-flasher.py" line="606"/>
         <source>Erasing in progress...</source>
         <translation>Löschen in Arbeit...</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="615"/>
+        <location filename="../airrohr-flasher.py" line="641"/>
         <source>Writing at 0x{address:08x}...</source>
         <translation>Schreibe ab 0x{address:08x}...</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="626"/>
+        <location filename="../airrohr-flasher.py" line="652"/>
         <source>Finished in {time:.2f} seconds. Sensor ID: {sensor_id}</source>
         <translation>Beendet in {time:.2f} seconds. Chip ID: {sensor_id}</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="369"/>
+        <location filename="../gui/mainwindow.py" line="430"/>
         <source>Sensor.Community - Airrohr Flasher (v{version})</source>
         <translation>Sensor.Community - Airrohr Flasher (v{version})</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="371"/>
+        <location filename="../gui/mainwindow.py" line="432"/>
         <source>Firmware version:</source>
         <translation>Firmware Version:</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="375"/>
+        <location filename="../gui/mainwindow.py" line="436"/>
         <source>Upload</source>
         <translation>Hochladen</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="390"/>
+        <location filename="../gui/mainwindow.py" line="460"/>
         <source>Erase Flash</source>
         <translation>Flash löschen</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="376"/>
+        <location filename="../gui/mainwindow.py" line="437"/>
         <source>Expert mode</source>
         <translation>Experten Modus</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="370"/>
+        <location filename="../gui/mainwindow.py" line="431"/>
         <source>Board:</source>
         <translation>Board:</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="377"/>
+        <location filename="../gui/mainwindow.py" line="438"/>
         <source>Baudrate:</source>
         <translation>Baudrate:</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="378"/>
+        <location filename="../gui/mainwindow.py" line="439"/>
         <source>Flashing</source>
         <translation>Flashen</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="392"/>
+        <location filename="../gui/mainwindow.py" line="462"/>
         <source>Double-click to open configuration page.</source>
         <translation>Doppelklicken zum Öffnen der Konfigurationsseite.</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="393"/>
+        <location filename="../gui/mainwindow.py" line="463"/>
         <source>Sensors detected in local network:</source>
         <translation>Sensoren gefunden im lokalen Netzwerk:</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="394"/>
+        <location filename="../gui/mainwindow.py" line="464"/>
         <source>Refresh</source>
         <translation>Aktualisieren</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="395"/>
+        <location filename="../gui/mainwindow.py" line="465"/>
         <source>Discovery</source>
         <translation>Im Netzwerk suchen</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="396"/>
+        <location filename="../gui/mainwindow.py" line="466"/>
         <source>In case of sensor issues, Serial Monitor can be used to review logs sent by the sensor over USB cable.</source>
         <translation>Im Fall von Sensorproblemen kann der Serielle Monitor zur Anzeige der Protokolle genutzt werden, die vom Sensor über den USB-Anschluß ausgegeben werden.</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="397"/>
+        <location filename="../gui/mainwindow.py" line="467"/>
         <source>Connect</source>
         <translation>Verbinden</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="398"/>
+        <location filename="../gui/mainwindow.py" line="468"/>
         <source>Serial Monitor</source>
         <translation>Serieller Monitor</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="399"/>
+        <location filename="../gui/mainwindow.py" line="469"/>
         <source>&lt;b&gt;Sensor.Community Airrohr Flasher&lt;/b&gt;&lt;br/&gt;Build {build_id}</source>
-        <translation>&lt;b&gt;Sensor.Community Airrohr Flasher&lt;/b&gt;&lt;br/&gt;Build {build_id}</translation>
+        <translation>&amp;lt;b&amp;gt;Sensor.Community Airrohr Flasher&amp;lt;/b&amp;gt;&amp;lt;br/&amp;gt;Build {build_id}</translation>
     </message>
     <message>
         <location filename="../gui/mainwindow.py" line="400"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Developed by &lt;a href=&quot;https://inf.re/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Piotr Dobrowolski&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;This software is released under the terms of MIT license. No warranty is provided.&lt;/p&gt;&lt;p&gt;For newest release see: &lt;a href=&quot;https://d.inf.re/luftdaten/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://d.inf.re/luftdaten/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Developed by &lt;a href=&quot;https://inf.re/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Piotr Dobrowolski&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;This software is released under the terms of MIT license. No warranty is provided.&lt;/p&gt;&lt;p&gt;For newest release see: &lt;a href=&quot;https://d.inf.re/luftdaten/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://d.inf.re/luftdaten/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="obsolete">&amp;lt;html&amp;gt;&amp;lt;head/&amp;gt;&amp;lt;body&amp;gt;&amp;lt;p&amp;gt;Developed by &amp;lt;a href=&amp;quot;https://inf.re/&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; text-decoration: underline; color:#0000ff;&amp;quot;&amp;gt;Piotr Dobrowolski&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;This software is released under the terms of MIT license. No warranty is provided.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;For newest release see: &amp;lt;a href=&amp;quot;https://d.inf.re/luftdaten/&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; text-decoration: underline; color:#0000ff;&amp;quot;&amp;gt;https://d.inf.re/luftdaten/&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="401"/>
+        <location filename="../gui/mainwindow.py" line="471"/>
         <source>About</source>
         <translation>Über</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="342"/>
+        <location filename="../airrohr-flasher.py" line="363"/>
         <source>Invalid sensor name.</source>
         <translation>Ungültiger Sensorname.</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="361"/>
+        <location filename="../airrohr-flasher.py" line="386"/>
         <source>Invalid language.</source>
         <translation>Ungültige Sprache.</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="365"/>
+        <location filename="../airrohr-flasher.py" line="390"/>
         <source>No SSID typed.</source>
         <translation>Keine SSID angegeben.</translation>
     </message>
@@ -188,104 +189,124 @@
         <translation type="obsolete">Kein Passwort angegeben.</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="373"/>
+        <location filename="../airrohr-flasher.py" line="401"/>
         <source>2 times the same sensor.</source>
         <translation>2 mal der gleiche Sensor angegeben.</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="395"/>
+        <location filename="../airrohr-flasher.py" line="422"/>
         <source>Created invalid json.</source>
         <translation>Ungültiges JSON erzeugt.</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="399"/>
+        <location filename="../airrohr-flasher.py" line="426"/>
         <source>Created valid json.</source>
         <translation>Gültiges JSON erzeugt.</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="402"/>
+        <location filename="../airrohr-flasher.py" line="429"/>
         <source>Opening temporary json directory.</source>
         <translation>Öffne temporäres JSON directory</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="405"/>
+        <location filename="../airrohr-flasher.py" line="432"/>
         <source>Write json in temporay json directory.</source>
         <translation>Schreibe JSON in temporäres Verzeichnis.</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="409"/>
+        <location filename="../airrohr-flasher.py" line="436"/>
         <source>Make SPIFFS bin</source>
         <translation>Erzeuge SPIFFS Binary</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="424"/>
+        <location filename="../airrohr-flasher.py" line="451"/>
         <source>spiffs.bin done!</source>
         <translation>spiffs.bin erzeugt!</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="373"/>
+        <location filename="../gui/mainwindow.py" line="452"/>
         <source>Progress:</source>
         <translation>Fortschritt:</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="382"/>
+        <location filename="../gui/mainwindow.py" line="448"/>
         <source>Sensor 1:</source>
         <translation>Sensor 1:</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="383"/>
+        <location filename="../gui/mainwindow.py" line="449"/>
         <source>Sensor 2:</source>
         <translation>Sensor 2:</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="384"/>
+        <location filename="../gui/mainwindow.py" line="450"/>
         <source>Language:</source>
         <translation>Sprache:</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="386"/>
+        <location filename="../gui/mainwindow.py" line="454"/>
         <source>Save configuration</source>
         <translation>Speichere Konfiguration</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="387"/>
+        <location filename="../gui/mainwindow.py" line="455"/>
         <source>Configure</source>
         <translation>Konfigurieren</translation>
     </message>
     <message>
-        <location filename="../airrohr-flasher.py" line="369"/>
+        <location filename="../airrohr-flasher.py" line="394"/>
         <source>No password typed.</source>
         <translation> Kein Passwort angegeben.</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="389"/>
+        <location filename="../gui/mainwindow.py" line="459"/>
         <source> </source>
         <translation> </translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="379"/>
+        <location filename="../gui/mainwindow.py" line="440"/>
         <source>Custom name:</source>
         <translation>Benutzerdef. Name:</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="380"/>
+        <location filename="../gui/mainwindow.py" line="443"/>
         <source>WiFi SSID:</source>
         <translation>WLAN SSID:</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="381"/>
+        <location filename="../gui/mainwindow.py" line="444"/>
         <source>WiFi password:</source>
         <translation>WLAN Passwort</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="388"/>
+        <location filename="../gui/mainwindow.py" line="456"/>
         <source>This will completely erase the flash memory (firmware and configuration). After that you will need to reflash the firmware and reconfigure the device.</source>
         <translation>Dies löscht den Flash-Speicher komplett (Firmware und gespeicherte Konfiguration). Sie müssen danach die Firmware noch einmal aufspielen und das Gerät neu konfigurieren</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.py" line="391"/>
+        <location filename="../gui/mainwindow.py" line="461"/>
         <source>Erase flash</source>
         <translation>Flash löschen</translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.py" line="442"/>
+        <source>(Change only if really needed.)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.py" line="445"/>
+        <source>empty:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.py" line="447"/>
+        <source>(Check &quot;empty&quot; if you want to use the device in a wifi network without password.)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/mainwindow.py" line="470"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Original version developed by &lt;a href=&quot;https://inf.re/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Piotr Dobrowolski&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;This software is released under the terms of MIT license. No warranty is provided.&lt;/p&gt;&lt;p&gt;For newest release see: &lt;a href=&quot;https://firmware.sensor.community/airrohr/flashing-tool/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://firmware.sensor.community/airrohr/flashing-tool/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

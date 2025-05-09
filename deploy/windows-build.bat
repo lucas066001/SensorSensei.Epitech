@@ -10,16 +10,16 @@ rem PATH is only reloaded on reboot/login, so we need to force it here
 set PATH=%LocalAppData%\Programs\Python\Python36\;%LocalAppData%\Programs\Python\Python36\Scripts\;%LocalAppData%\Roaming\Python\Python36\;%LocalAppData%\Roaming\Python\Python36\Scripts\;%PATH%
 copy %LocalAppData%\Programs\Python\Python36\python.exe %LocalAppData%\Programs\Python\Python36\python3.exe
 
-rem Download cygwin installer
-if not exist build\cygwin-x86.exe powershell -Command "(new-object System.Net.WebClient).DownloadFile('https://cygwin.com/setup-x86.exe', 'build\cygwin-x86.exe')"
+rem Download cygwin 64-bit installer
+if not exist build\cygwin-x86_64.exe powershell -Command "(new-object System.Net.WebClient).DownloadFile('https://cygwin.com/setup-x86_64.exe', 'build\cygwin-x86_64.exe')"
 
 rem Install required Cygwin packages
-if not exist build\cygwin build\cygwin-x86.exe --site http://cygwin.mirror.constant.com ^
+if not exist build\cygwin build\cygwin-x86_64.exe --site http://cygwin.mirror.constant.com ^
 	--no-shortcuts ^
 	--no-desktop ^
 	--quiet-mode ^
 	--root "%cd%\build\cygwin" ^
-	--arch x86 ^
+	--arch x86_64 ^
 	--local-package-dir "%cd%\build\cygwin-packages" ^
 	--verbose ^
 	--prune-install ^
