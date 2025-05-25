@@ -351,7 +351,7 @@ void ttn_join() {
                         p.getBytes("artKey", artKey, sizeof(artKey)) == sizeof(artKey);
         p.end(); // close our prefs
 
-        if(!keysgood) {
+        if(!keysgood || netId == UINT32_MAX || devAddr == UINT32_MAX) {
             // We have not yet joined a network, start a full join attempt
             // Make LMiC initialize the default channels, choose a channel, and
             // schedule the OTAA join

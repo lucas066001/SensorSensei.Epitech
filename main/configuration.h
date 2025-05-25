@@ -44,8 +44,8 @@ void ttn_register(void (*callback)(uint8_t message));
 #define T_BEAM_V10  // AKA Rev1 (second board released)
 
 // Select the payload format. Change on TTN as well. Only uncomment one.
-#define PAYLOAD_USE_FULL
-// #define PAYLOAD_USE_CAYENNE
+//#define PAYLOAD_USE_FULL
+#define PAYLOAD_USE_CAYENNE
 
 // If using a single-channel gateway, uncomment this next option and set to your gateway's channel
 //#define SINGLE_CHANNEL_GATEWAY  0
