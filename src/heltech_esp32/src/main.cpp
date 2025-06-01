@@ -1,15 +1,48 @@
-#include "services/dust_sensor_service/dust_sensor_service.h"
-#include "services/audio_sensor_service/audio_sensor_service.h"
-#include "services/lora_service/lora_service.h"
+#include <dust-sensor.h>
+#include <audio-sensor.h>
+#include <board-config.h>
+#include <lora-sender.h>
+#include <WiFi.h>
+#include <esp_sleep.h>
+#include <esp_bt.h>
 
-void setup() {
-  // audio_setup();
-  dust_sensor_setup();
-  // lora_sender_setup();
+using namespace SensorSensei;
+
+Services::LoraSenderService loraSenderService;
+Repositories::DustSensorRepository dustSensorRepository;
+Repositories::AudioSensorRepository audioSensorRepository;
+
+void setup()
+{
+  // Energy saving setup
+  WiFi.mode(WIFI_OFF);
+  btStop(); // Arrêt Bluetooth
+  esp_bt_controller_disable();
+
+  Serial.begin(115200);
+  delay(100);
+
+  // Init sensors
+  dustSensorRepository.dustSensorSetup();
+  audioSensorRepository.audioSensorSetup();
+  loraSenderService.loraSenderSetup();
+
+  // Sensor read
+  float meanAudio = audioSensorRepository.audioRead();
+
+  std::tuple<float, float> dustValues = dustSensorRepository.dustRead();
+  float pm25 = std::get<0>(dustValues);
+  float pm10 = std::get<1>(dustValues);
+
+  // LoRa send
+  loraSenderService.loraSend(meanAudio, pm25, pm10);
+
+  // Deep sleep
+  esp_sleep_enable_timer_wakeup(Constants::BoardConfig::SleepTime);
+  esp_deep_sleep_start();
 }
 
-void loop() {
-  // audio_loop();
-  dust_sensor_loop();
-  // lora_sender_loop();
+void loop()
+{
+  // Never reached thanks to deep sleep
 }
